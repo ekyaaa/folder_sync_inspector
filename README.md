@@ -48,6 +48,11 @@ This is a standard Flutter project. Ensure you have the Flutter SDK installed an
 flutter run
 ```
 
+### Build Release (macOS)
+```bash
+flutter build macos
+```
+
 ### Build Release (Linux)
 ```bash
 flutter build linux

@@ -9,6 +9,9 @@ class MainFlutterWindow: NSWindow {
     self.setFrame(windowFrame, display: true)
 
     RegisterGeneratedPlugins(registry: flutterViewController)
+    
+    self.minSize = NSSize(width: 1024, height: 700)
+    self.title = "Folder Sync Inspector"
 
     super.awakeFromNib()
   }
