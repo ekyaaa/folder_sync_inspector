@@ -27,7 +27,7 @@ To use this tool effectively, you often need to generate a directory structure c
 ### 1. Extract changed file list from a commit
 Run this command in your project repository to output a list of modified/added files (excluding deleted ones):
 ```bash
-git diff-tree --no-commit-id --name-only --diff-filter=d -r {__commit_hash__} > changes.txt
+git diff-tree --no-commit-id --name-only --diff-filter=d -r {__commit_id__} > changes.txt
 ```
 
 ### 2. Generate structured folder for comparison
